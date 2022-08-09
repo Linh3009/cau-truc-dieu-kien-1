@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem tra nam nhuan</title>
+</head>
+<body>
+<script>
+    let nam = parseInt(prompt('nhap so nam'));
+    if ((nam % 4 === 0) && (nam % 100 !== 0) || (nam % 400 === 0)) {
+        alert('La nam nhuan');
+    } else {
+        alert('Khong phai nam nhuan');
+    }
+</script>
+</body>
+</html>
