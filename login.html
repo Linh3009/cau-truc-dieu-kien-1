@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyen tap cau truc if else</title>
+</head>
+<body>
+<script>
+    let userName = prompt('Ai đó ?');
+    if (userName == 'admin') {
+        let passWord = prompt('Mật khẩu');
+        if (passWord == 'themaster') {
+            alert('Xin chào');
+        } else if (passWord == null) {
+            alert('Canceled');
+        } else
+            alert('Sai mật khẩu');
+    } else if (userName == null) {
+        alert ('Cancelled');
+    } else {
+        alert('Tôi không biết bạn')
+    }
+</script>
+</body>
+</html>
